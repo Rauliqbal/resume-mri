@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import "./colors";
+@import "./card";
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+section {
+    padding: 60px 0;
+}
+
+.navbar-ri {
+    .navbar-brand {
+        color: $navy;
+        font-size: 30px;
+        font-weight: 600;
+
+        span {
+            font-weight: 400;
+        }
+    }
+
+    .nav-item {
+        .nav-link {
+            color: $black;
+            font-weight: 500;
+            margin-left: 30px;
+        }
+    }
+}
+
+.hero {
+    .header {
+        span {
+            font-size: 35px;
+            color: #002265;
+        }
+        h1 {
+            font-size: 52px;
+            color: #002265;
+        }
+        p {
+            font-size: 24px;
+            margin-top: 16px;
+        }
+    }
+}
+
+.passions {
+    .section-title {
+        h2 {
+            font-size: 35px;
+            font-weight: 400;
+            line-height: 52px;
+            letter-spacing: 0.055em;
+            color: $navy;
+
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+    .card {
+        img {
+            padding: 20px 5px;
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        h3 {
+            font-weight: 600;
+
+            span {
+                font-weight: 400;
+            }
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}
