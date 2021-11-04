@@ -10,7 +10,19 @@ body {
 section {
     padding: 60px 0;
 }
+.section-title {
+    h2 {
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 52px;
+        letter-spacing: 0.055em;
+        color: $navy;
 
+        span {
+            font-weight: 600;
+        }
+    }
+}
 .navbar-ri {
     .navbar-brand {
         color: $navy;
@@ -49,19 +61,6 @@ section {
 }
 
 .passions {
-    .section-title {
-        h2 {
-            font-size: 35px;
-            font-weight: 400;
-            line-height: 52px;
-            letter-spacing: 0.055em;
-            color: $navy;
-
-            span {
-                font-weight: 600;
-            }
-        }
-    }
     .card {
         img {
             padding: 20px 5px;
@@ -80,5 +79,13 @@ section {
         p {
             font-size: 18px;
         }
+    }
+}
+
+.portfolio {
+    img {
+        width: 400px;
+        box-shadow: 0px 5px 26px 5px rgba(0, 0, 0, 0.17);
+        border-radius: 13px;
     }
 }
