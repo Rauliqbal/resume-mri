@@ -18,7 +18,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 400;
   line-height: 52px;
   letter-spacing: 0.055em;
@@ -45,18 +45,22 @@ section {
   margin-left: 30px;
 }
 
+.hero .header {
+  margin-top: 32px;
+}
+
 .hero .header span {
   font-size: 35px;
   color: #002265;
 }
 
 .hero .header h1 {
-  font-size: 52px;
+  font-size: 28px;
   color: #002265;
 }
 
 .hero .header p {
-  font-size: 24px;
+  font-size: 18px;
   margin-top: 16px;
 }
 
@@ -83,5 +87,20 @@ section {
   -webkit-box-shadow: 0px 5px 26px 5px rgba(0, 0, 0, 0.17);
           box-shadow: 0px 5px 26px 5px rgba(0, 0, 0, 0.17);
   border-radius: 13px;
+}
+
+@media (min-width: 992px) {
+  .section-title h2 {
+    font-size: 35px;
+  }
+  .hero .header {
+    margin-top: 0;
+  }
+  .hero .header h1 {
+    font-size: 48px;
+  }
+  .hero .header p {
+    font-size: 23px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
