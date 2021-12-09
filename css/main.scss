@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import "./colors";
+@import "./card";
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+section {
+    padding: 60px 0;
+}
+.btn-primary {
+    background-color: #608af5;
+    color: #fff !important;
+    border-radius: 10px;
+    padding: 10px 18px;
+}
+.section-title {
+    h2 {
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 52px;
+        letter-spacing: 0.055em;
+        color: $navy;
+
+        span {
+            font-weight: 600;
+        }
+    }
+}
+.navbar-ri {
+    .navbar-brand {
+        color: $navy;
+        font-size: 30px;
+        font-weight: 600;
+
+        span {
+            font-weight: 400;
+        }
+    }
+
+    .nav-item {
+        .nav-link {
+            color: $black;
+            font-weight: 500;
+            margin-left: 30px;
+        }
+    }
+}
+
+.hero {
+    .header {
+        margin-top: 32px;
+
+        span {
+            font-size: 35px;
+            color: #002265;
+        }
+        h1 {
+            font-size: 28px;
+            color: #002265;
+        }
+        p {
+            font-size: 18px;
+            margin-top: 16px;
+        }
+    }
+}
+
+.passions {
+    .card {
+        img {
+            padding: 20px 5px;
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        h3 {
+            font-weight: 600;
+
+            span {
+                font-weight: 400;
+            }
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+.portfolio {
+    img {
+        width: 400px;
+        box-shadow: 0px 5px 26px 5px rgba(0, 0, 0, 0.17);
+        border-radius: 13px;
+    }
+}
+
+.contact {
+    img {
+        background-color: #608af5;
+        border-radius: 50px;
+        padding: 10px;
+        width: 70px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+}
+
+.footer {
+    background-image: url(../assets/images/Vector.svg);
+    background-position: center;
+    background-size: cover;
+    padding: 60px;
+    background-repeat: no-repeat;
+}
+// Desktop Version
+@media (min-width: 992px) {
+    .section-title {
+        h2 {
+            font-size: 35px;
+        }
+    }
+
+    .hero {
+        .header {
+            margin-top: 0;
+
+            h1 {
+                font-size: 48px;
+            }
+
+            p {
+                font-size: 23px;
+            }
+        }
+    }
+}
